@@ -1,0 +1,9 @@
+HostName 113.54.153.232
+baseName terminal
+Table speed
+UserName root
+PassWd 1308
+ServerIp 113.54.153.232
+ServerPort 9995
+
+
