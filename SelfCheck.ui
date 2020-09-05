@@ -1,0 +1,3643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SelfCheckUi</class>
+ <widget class="QWidget" name="SelfCheckUi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>872</width>
+    <height>896</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>自检</string>
+  </property>
+  <widget class="QLabel" name="Title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>144</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>27</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>系统自检</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>736</width>
+     <height>832</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_5">
+    <item row="1" column="3">
+     <widget class="QWidget" name="widget_9" native="true">
+      <layout class="QGridLayout" name="gridLayout_10">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <item>
+          <widget class="QLabel" name="label_429">
+           <property name="text">
+            <string>         终端9</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_36" native="true">
+           <layout class="QGridLayout" name="gridLayout_36">
+            <item row="1" column="0">
+             <widget class="LightButton" name="PhonelightButton9_2" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="PhonelightButton9_3" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="WifilightButton9_1" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="WifilightButton9_5" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="PhonelightButton9_6" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="PhonelightButton9_1" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="WifilightButton9_6" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="WifilightButton9_2" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="WifilightButton9_3" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="WifilightButton9_4" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="PhonelightButton9_5" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="PhonelightButton9_4" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel9_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel9_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel9_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel9_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel9_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel9_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel9_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel9_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel9_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel9_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel9_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel9_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QWidget" name="widget_19" native="true">
+      <layout class="QGridLayout" name="gridLayout_21">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_20">
+         <item>
+          <widget class="QLabel" name="label_572">
+           <property name="text">
+            <string>         终端19</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_47" native="true">
+           <layout class="QGridLayout" name="gridLayout_47">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_553" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_554" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_555" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_556" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_557" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_558" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_559" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_560" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_561" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_562" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_563" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_564" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel19_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel19_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel19_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel19_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel19_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel19_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel19_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel19_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel19_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel19_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel19_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel19_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QWidget" name="widget_7" native="true">
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <widget class="QLabel" name="label_403">
+           <property name="text">
+            <string>         终端7</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_34" native="true">
+           <layout class="QGridLayout" name="gridLayout_34">
+            <item row="1" column="0">
+             <widget class="LightButton" name="PhonelightButton7_2" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="PhonelightButton7_3" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="WifilightButton7_1" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="WifilightButton7_5" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="PhonelightButton7_6" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="PhonelightButton7_1" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="WifilightButton7_6" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="WifilightButton7_2" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="WifilightButton7_3" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="WifilightButton7_4" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="PhonelightButton7_5" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="PhonelightButton7_4" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel7_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel7_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel7_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel7_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel7_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel7_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel7_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel7_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel7_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel7_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel7_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel7_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QWidget" name="widget_11" native="true">
+      <layout class="QGridLayout" name="gridLayout_13">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_12">
+         <item>
+          <widget class="QLabel" name="label_468">
+           <property name="text">
+            <string>         终端11</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_39" native="true">
+           <layout class="QGridLayout" name="gridLayout_39">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_457" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_458" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_459" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_460" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_461" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_462" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_463" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_464" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_465" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_466" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_467" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_468" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel11_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel11_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel11_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel11_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel11_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel11_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel11_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel11_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel11_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel11_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel11_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel11_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QWidget" name="widget_10" native="true">
+      <layout class="QGridLayout" name="gridLayout_11">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_10">
+         <item>
+          <widget class="QLabel" name="label_442">
+           <property name="text">
+            <string>         终端10</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_37" native="true">
+           <layout class="QGridLayout" name="gridLayout_37">
+            <item row="1" column="0">
+             <widget class="LightButton" name="PhonelightButton10_2" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="PhonelightButton10_3" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="WifilightButton10_1" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="WifilightButton10_5" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="PhonelightButton10_6" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="PhonelightButton10_1" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="WifilightButton10_6" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="WifilightButton10_2" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="WifilightButton10_3" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="WifilightButton10_4" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="PhonelightButton10_5" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="PhonelightButton10_4" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel10_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel10_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel10_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel10_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel10_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel10_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel10_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel10_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel10_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel10_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel10_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel10_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QWidget" name="widget_13" native="true">
+      <layout class="QGridLayout" name="gridLayout_15">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_14">
+         <item>
+          <widget class="QLabel" name="label_494">
+           <property name="text">
+            <string>         终端13</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_41" native="true">
+           <layout class="QGridLayout" name="gridLayout_41">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_481" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_482" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_483" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_484" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_485" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_486" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_487" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_488" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_489" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_490" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_491" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_492" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel13_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel13_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel13_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel13_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel13_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel13_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel13_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel13_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel13_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel13_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel13_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel13_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QWidget" name="widget_12" native="true">
+      <layout class="QGridLayout" name="gridLayout_14">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_13">
+         <item>
+          <widget class="QLabel" name="label_481">
+           <property name="text">
+            <string>         终端12</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_40" native="true">
+           <layout class="QGridLayout" name="gridLayout_40">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_469" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_470" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_471" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_472" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_473" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_474" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_475" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_476" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_477" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_478" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_479" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_480" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel12_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel12_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel12_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel12_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel12_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel12_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel12_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel12_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel12_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel12_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel12_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel12_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QWidget" name="widget_4" native="true">
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="terminal_label_4">
+           <property name="text">
+            <string>         终端4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_31" native="true">
+           <layout class="QGridLayout" name="gridLayout_31">
+            <item row="1" column="0">
+             <widget class="LightButton" name="PhonelightButton4_2" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="PhonelightButton4_3" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="WifilightButton4_1" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="WifilightButton4_5" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="PhonelightButton4_6" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="PhonelightButton4_1" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="WifilightButton4_6" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="WifilightButton4_2" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="WifilightButton4_3" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="WifilightButton4_4" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="PhonelightButton4_5" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="PhonelightButton4_4" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel4_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel4_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel4_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel4_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel4_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel4_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel4_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel4_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel4_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel4_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel4_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel4_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QWidget" name="widget_2" native="true">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="terminal_label_2">
+           <property name="text">
+            <string>         终端2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_29" native="true">
+           <layout class="QGridLayout" name="gridLayout_29">
+            <item row="1" column="0">
+             <widget class="LightButton" name="PhonelightButton2_2" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="PhonelightButton2_3" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="WifilightButton2_1" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="WifilightButton2_5" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="PhonelightButton2_6" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="PhonelightButton2_1" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="WifilightButton2_6" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="WifilightButton2_2" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="WifilightButton2_3" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="WifilightButton2_4" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="PhonelightButton2_5" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="PhonelightButton2_4" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel2_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel2_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel2_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel2_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel2_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel2_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel2_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel2_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel2_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel2_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel2_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel2_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QWidget" name="widget_3" native="true">
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="terminal_label_3">
+           <property name="text">
+            <string>         终端3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_30" native="true">
+           <layout class="QGridLayout" name="gridLayout_30">
+            <item row="1" column="0">
+             <widget class="LightButton" name="PhonelightButton3_2" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="PhonelightButton3_3" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="WifilightButton3_1" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="WifilightButton3_5" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="PhonelightButton3_6" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="PhonelightButton3_1" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="WifilightButton3_6" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="WifilightButton3_2" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="WifilightButton3_3" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="WifilightButton3_4" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="PhonelightButton3_5" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="PhonelightButton3_4" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel3_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel3_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel3_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel3_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel3_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel3_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel3_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel3_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel3_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel3_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel3_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel3_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget_1" native="true">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="terminal_label_1">
+           <property name="text">
+            <string>         终端1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_28" native="true">
+           <layout class="QGridLayout" name="gridLayout_28">
+            <item row="1" column="0">
+             <widget class="LightButton" name="PhonelightButton1_2" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="PhonelightButton1_3" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="WifilightButton1_1" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="WifilightButton1_5" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="PhonelightButton1_6" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="PhonelightButton1_1" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="WifilightButton1_6" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="WifilightButton1_2" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="WifilightButton1_3" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="WifilightButton1_4" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="PhonelightButton1_5" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="PhonelightButton1_4" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel1_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel1_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel1_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel1_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel1_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel1_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel1_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel1_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel1_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel1_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel1_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel1_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QWidget" name="widget_8" native="true">
+      <layout class="QGridLayout" name="gridLayout_9">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <widget class="QLabel" name="label_416">
+           <property name="text">
+            <string>         终端8</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_35" native="true">
+           <layout class="QGridLayout" name="gridLayout_35">
+            <item row="1" column="0">
+             <widget class="LightButton" name="PhonelightButton8_2" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="PhonelightButton8_3" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="WifilightButton8_1" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="WifilightButton8_5" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="PhonelightButton8_6" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="PhonelightButton8_1" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="WifilightButton8_6" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="WifilightButton8_2" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="WifilightButton8_3" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="WifilightButton8_4" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="PhonelightButton8_5" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="PhonelightButton8_4" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel8_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel8_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel8_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel8_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel8_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel8_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel8_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel8_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel8_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel8_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel8_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel8_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QWidget" name="widget_6" native="true">
+      <layout class="QGridLayout" name="gridLayout_7">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QLabel" name="label_390">
+           <property name="text">
+            <string>         终端6</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_33" native="true">
+           <layout class="QGridLayout" name="gridLayout_33">
+            <item row="1" column="0">
+             <widget class="LightButton" name="PhonelightButton6_2" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="PhonelightButton6_3" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="WifilightButton6_1" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="WifilightButton6_5" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="PhonelightButton6_6" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="PhonelightButton6_1" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="WifilightButton6_6" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="WifilightButton6_2" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="WifilightButton6_3" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="WifilightButton6_4" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="PhonelightButton6_5" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="PhonelightButton6_4" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel6_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel6_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel6_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel6_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel6_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel6_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel6_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel6_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel6_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel6_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel6_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel6_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QWidget" name="widget_5" native="true">
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QLabel" name="terminal_label_5">
+           <property name="text">
+            <string>         终端5</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_32" native="true">
+           <layout class="QGridLayout" name="gridLayout_32">
+            <item row="1" column="0">
+             <widget class="LightButton" name="PhonelightButton5_2" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="PhonelightButton5_3" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="WifilightButton5_1" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="WifilightButton5_5" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="PhonelightButton5_6" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="PhonelightButton5_1" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="WifilightButton5_6" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="WifilightButton5_2" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="WifilightButton5_3" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="WifilightButton5_4" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="PhonelightButton5_5" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="PhonelightButton5_4" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel5_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel5_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel5_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel5_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel5_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel5_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel5_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel5_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel5_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel5_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel5_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel5_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QWidget" name="widget_14" native="true">
+      <layout class="QGridLayout" name="gridLayout_16">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_15">
+         <item>
+          <widget class="QLabel" name="label_507">
+           <property name="text">
+            <string>         终端14</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_42" native="true">
+           <layout class="QGridLayout" name="gridLayout_42">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_493" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_494" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_495" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_496" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_497" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_498" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_499" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_500" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_501" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_502" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_503" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_504" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel14_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel14_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel14_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel14_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel14_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel14_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel14_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel14_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel14_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel14_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel14_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel14_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QWidget" name="widget_15" native="true">
+      <layout class="QGridLayout" name="gridLayout_17">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_16">
+         <item>
+          <widget class="QLabel" name="label_520">
+           <property name="text">
+            <string>         终端15</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_43" native="true">
+           <layout class="QGridLayout" name="gridLayout_43">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_505" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_506" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_507" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_508" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_509" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_510" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_511" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_512" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_513" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_514" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_515" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_516" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel15_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel15_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel15_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel15_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel15_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel15_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel15_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel15_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel15_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel15_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel15_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel15_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QWidget" name="widget_16" native="true">
+      <layout class="QGridLayout" name="gridLayout_18">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_17">
+         <item>
+          <widget class="QLabel" name="label_533">
+           <property name="text">
+            <string>         终端16</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_44" native="true">
+           <layout class="QGridLayout" name="gridLayout_44">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_517" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_518" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_519" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_520" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_521" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_522" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_523" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_524" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_525" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_526" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_527" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_528" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel16_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel16_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel16_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel16_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel16_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel16_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel16_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel16_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel16_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel16_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel16_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel16_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QWidget" name="widget_17" native="true">
+      <layout class="QGridLayout" name="gridLayout_19">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_18">
+         <item>
+          <widget class="QLabel" name="label_546">
+           <property name="text">
+            <string>         终端17</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_45" native="true">
+           <layout class="QGridLayout" name="gridLayout_45">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_529" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_530" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_531" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_532" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_533" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_534" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_535" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_536" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_537" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_538" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_539" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_540" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel17_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel17_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel17_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel17_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel17_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel17_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel17_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel17_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel17_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel17_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel17_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel17_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QWidget" name="widget_18" native="true">
+      <layout class="QGridLayout" name="gridLayout_20">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_19">
+         <item>
+          <widget class="QLabel" name="label_559">
+           <property name="text">
+            <string>         终端18</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_46" native="true">
+           <layout class="QGridLayout" name="gridLayout_46">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_541" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_542" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_543" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_544" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_545" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_546" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_547" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_548" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_549" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_550" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_551" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_552" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel18_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel18_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel18_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel18_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel18_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel18_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel18_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel18_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel18_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel18_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel18_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel18_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="QWidget" name="widget_20" native="true">
+      <layout class="QGridLayout" name="gridLayout_22">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_21">
+         <item>
+          <widget class="QLabel" name="label_585">
+           <property name="text">
+            <string>         终端20</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_48" native="true">
+           <layout class="QGridLayout" name="gridLayout_48">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_565" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_566" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_567" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_568" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_569" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_570" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_571" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_572" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_573" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_574" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_575" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_576" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel20_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel20_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel20_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel20_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel20_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel20_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel20_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel20_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel20_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel20_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel20_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel20_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QWidget" name="widget_21" native="true">
+      <layout class="QGridLayout" name="gridLayout_23">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_22">
+         <item>
+          <widget class="QLabel" name="label_598">
+           <property name="text">
+            <string>         终端21</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_49" native="true">
+           <layout class="QGridLayout" name="gridLayout_49">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_577" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_578" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_579" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_580" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_581" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_582" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_583" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_584" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_585" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_586" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_587" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_588" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel21_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel21_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel21_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel21_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel21_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel21_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel21_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel21_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel21_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel21_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel21_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel21_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QWidget" name="widget_22" native="true">
+      <layout class="QGridLayout" name="gridLayout_24">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_23">
+         <item>
+          <widget class="QLabel" name="label_611">
+           <property name="text">
+            <string>         终端22</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_50" native="true">
+           <layout class="QGridLayout" name="gridLayout_50">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_589" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_590" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_591" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_592" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_593" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_594" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_595" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_596" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_597" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_598" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_599" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_600" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel22_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel22_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel22_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel22_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel22_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel22_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel22_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel22_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel22_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel22_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel22_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel22_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QWidget" name="widget_23" native="true">
+      <layout class="QGridLayout" name="gridLayout_25">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_24">
+         <item>
+          <widget class="QLabel" name="label_624">
+           <property name="text">
+            <string>         终端23</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_51" native="true">
+           <layout class="QGridLayout" name="gridLayout_51">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_601" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_602" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_603" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_604" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_605" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_606" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_607" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_608" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_609" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_610" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_611" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_612" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel23_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel23_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel23_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel23_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel23_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel23_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel23_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel23_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel23_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel23_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel23_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel23_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QWidget" name="widget_24" native="true">
+      <layout class="QGridLayout" name="gridLayout_26">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_25">
+         <item>
+          <widget class="QLabel" name="label_637">
+           <property name="text">
+            <string>         终端24</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_52" native="true">
+           <layout class="QGridLayout" name="gridLayout_52">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_613" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_614" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_615" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_616" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_617" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_618" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_619" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_620" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_621" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_622" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_623" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_624" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel24_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel24_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel24_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel24_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel24_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel24_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel24_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel24_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel24_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel24_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel24_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel24_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="4" column="4">
+     <widget class="QWidget" name="widget_25" native="true">
+      <layout class="QGridLayout" name="gridLayout_27">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_26">
+         <item>
+          <widget class="QLabel" name="label_650">
+           <property name="text">
+            <string>         终端25</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_53" native="true">
+           <layout class="QGridLayout" name="gridLayout_53">
+            <item row="1" column="0">
+             <widget class="LightButton" name="lightButton1_625" native="true"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="LightButton" name="lightButton1_626" native="true"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="LightButton" name="lightButton1_627" native="true"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="LightButton" name="lightButton1_628" native="true"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="LightButton" name="lightButton1_629" native="true"/>
+            </item>
+            <item row="0" column="0">
+             <widget class="LightButton" name="lightButton1_630" native="true"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="LightButton" name="lightButton1_631" native="true"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="LightButton" name="lightButton1_632" native="true"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="LightButton" name="lightButton1_633" native="true"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="LightButton" name="lightButton1_634" native="true"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="LightButton" name="lightButton1_635" native="true"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="LightButton" name="lightButton1_636" native="true"/>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="WifiLabel25_1">
+              <property name="text">
+               <string>WIFI 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="WifiLabel25_5">
+              <property name="text">
+               <string>WIFI 5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="WifiLabel25_4">
+              <property name="text">
+               <string>WIFI 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="PhoneLabel25_4">
+              <property name="text">
+               <string>手机4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="PhoneLabel25_1">
+              <property name="text">
+               <string>手机1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="PhoneLabel25_3">
+              <property name="text">
+               <string>手机3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="PhoneLabel25_5">
+              <property name="text">
+               <string>手机5</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="PhoneLabel25_6">
+              <property name="text">
+               <string>手机6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="PhoneLabel25_2">
+              <property name="text">
+               <string>手机2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="WifiLabel25_6">
+              <property name="text">
+               <string>WIFI 6</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="WifiLabel25_3">
+              <property name="text">
+               <string>WIFI 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="WifiLabel25_2">
+              <property name="text">
+               <string>WIFI 2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>LightButton</class>
+   <extends>QWidget</extends>
+   <header>lightbutton.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
